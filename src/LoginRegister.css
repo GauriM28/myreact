@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("./img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+}
+
+.form-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 12px;
+  width: 320px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.05);
+  text-align: center;
+}
+
+.form-box h2 {
+  margin-bottom: 25px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 6px;
+  outline: none;
+  margin-left: -15px;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #dddddd;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+button:hover {
+  background: #222;
+}
+
+.toggle-text {
+  margin-top: 15px;
+  color: rgb(180, 180, 255);
+  cursor: pointer;
+  font-size: 14px;
+}
